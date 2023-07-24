@@ -1,0 +1,37 @@
+::-webkit-scrollbar {
+    width: 0px; /* Set the width of the scrollbar track */
+
+  }
+
+  html{
+    scroll-behavior: smooth;
+}
+  
+.home-page-containts-1{
+    background-color: rgb(8, 0, 38);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page-containts-1{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: 100px;
+}
+
+.first-hero-sctn-home{
+    height: 96vh;
+    width: 96vw;
+    margin: auto;
+    background-image:  linear-gradient(to bottom, #6563700f, #635d7863);;
+    margin-bottom:40px;
+    border-radius: 0 0 56px 56px;
+}
+
+footer{
+    position: relative;
+}
+.footer-home{
+position: relative;
+}

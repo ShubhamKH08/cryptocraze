@@ -1,0 +1,104 @@
+
+.connect-page-container{
+    height: 116vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.policy-info-div{
+    display: flex;
+    margin:8px 0 16px 0;
+  color: rgba(158, 166, 179, 0.393);
+}
+
+.payment-method{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.ul-list-pay{
+    display: flex;
+    gap:4.4vw;
+    color: rgba(212, 228, 254, 0.512);
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    list-style: none;
+    font-size: 1.6em;
+}
+.connect-info-text{
+    color:rgba(244, 247, 249, 0.827);
+    font-weight: 400;
+    width: 40vw;
+    text-align: center;
+    font-family: 'Manrope',sans-serif;
+    
+}
+
+.connect-cards-home{
+    width: 88vw;
+    height: 260px;
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+.connect-card{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-img{
+    height: 64px;width: 64px;
+}
+.connect-card span{
+    font-size:22px;    
+  color: rgba(237, 241, 248, 0.931);
+}
+.connect-card p{text-align: center;
+    font-size: 16px;
+    color: rgba(212, 228, 254, 0.552);
+}
+
+.buy-crypto-container{
+    width: 95vw;
+    height: 280px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8vw;   
+    margin: 32px 0;
+    background-color: rgb(93, 75, 252);
+    border-radius: 30px;
+}
+.buy-text{
+    font-size: 2.4em;
+    color: white;
+    width: 24vw;
+    height: 260px;
+    font-family: 'Manrope',sans-serif;
+    margin: 16px 0;
+}
+
+.buy-connect-card{
+    width: 200px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap:4px
+}
+.buy-connect-card span{
+    font-size:22px;    
+  color: rgba(237, 241, 248, 0.931);
+}
+.buy-connect-card p{
+    
+    font-size: 16px;
+    color: rgba(234, 237, 244, 0.71);
+}

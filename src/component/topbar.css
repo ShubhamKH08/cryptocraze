@@ -1,0 +1,111 @@
+.nav_containar{
+    height: 80px;
+    width: 100vw;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background:rgba(10, 1, 62, 0.106);
+    color: white;
+}
+
+  .top-bar-left-logo-version{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-left: 8vw;
+  }
+
+.web_logo{
+    height: 48px;
+    width: 48px;
+    background: url("/src/assest/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.top-bar-version-sectn{
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-size: 0.6rem;
+    border: 0.2px solid rgb(240, 251, 255);
+}
+.ul_option{
+    display: inline-flex;
+    gap: 3vw;
+}
+.ul_option li{
+    padding: 2px 8px;
+    border-radius: 8px;
+    list-style: none;
+    text-decoration: none;
+}
+.ul_option li:hover  {
+    
+    background-color: rgba(255, 255, 255, 0.225);
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+.top-bar-profile-sectn{
+    margin-right: 8vw;
+    display: flex;
+    align-items: center;
+}
+.top-bar-profile-sectn .ul_option{
+    gap: 12px;
+}
+.top-bar-country-loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    height: 28px;width: 3.6em;
+    padding: 0;
+    border-radius: 20px;
+    border: 0.5px solid beige;
+}
+.top-bar-flag-icon{
+    /* position: absolute; */
+    height: 24px;
+    width: 24px;
+    overflow: hidden;
+    border-radius: 100%;  
+    padding: 1px;  
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.top-bar-btn-get-start{
+    padding: 8px 12px;
+    outline: none;
+    border: 0;
+    margin: 0 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 550;
+    color: rgba(41, 36, 51, 0.829);
+    background-color: rgb(245, 248, 250);
+}
+
+.top-bar-ul-li-links{
+    color: rgba(241, 240, 240, 0.832);
+}
+
+.selected  {
+    background-color: rgba(255, 255, 255, 0.225);
+    color: rgb(255, 255, 255);
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-weight: 560;
+    transition: .2s ease;
+  }
+
+
+  
+  .selected:hover{
+    padding: 0;
+    background-color: rgba(240, 248, 255, 0);
+  }
