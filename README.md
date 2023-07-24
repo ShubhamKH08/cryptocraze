@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# cryptocraze
+This GitHub repository contains the front-end code for the CryptoGraphy Trading Platform landing page, developed during my internship at "Codsoft." The landing page serves as a gateway to the crypto trading platform, showcasing its features, benefits, and user interface in an engaging and visually appealing manner.
+>>>>>>> 1617809d73d058c193821b1558a86fd52eaeca00
